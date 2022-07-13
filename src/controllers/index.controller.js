@@ -11,7 +11,7 @@ const pool = new Pool({
 	}
 });
 
-//Inicio
+//Inicios
 const getInicio = async (req,res) =>{
 	res.json({ mensaje: 'Bienvenido a la API de Huella Verde' });
 }
